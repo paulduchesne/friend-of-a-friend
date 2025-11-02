@@ -19,13 +19,15 @@ This notebook works on the assumption that, while it can be difficult to disambi
 This thinking can be illustrated by the following example:
 
 ```
-Is Max Schreck, who worked on Die Finanzen des Grossherzogs (1924), the same Max Schreck who worked on Nosferatu (1922)?
+Is Max Schreck, who worked on Die Finanzen des Grossherzogs (1924),
+the same Max Schreck who worked on Nosferatu (1922)?
 ```
 
 This is difficult to say in isolation, even though it is an unusual name, both films are German and made within the same time period.
 
 ```
-Is Max Schreck, who worked with F W Murnau on Die Finanzen des Grossherzogs (1924), the same Max Schreck who worked with F W Murnau on Nosferatu (1922)?
+Is Max Schreck, who worked with F W Murnau on Die Finanzen des Grossherzogs (1924),
+the same Max Schreck who worked with F W Murnau on Nosferatu (1922)?
 ```
 
 A mutual collaborator, in this case, the director F W Murnau, gives some confidence that both Max Schrecks are indeed the same actor.
@@ -36,7 +38,7 @@ For these reasons, results from this process should be treated as indicative of 
 
 **Datasets**
 
-A test dataset is provided, derived from the [ACMI API](https://github.com/ACMILabs/acmi-api). This is made possible by [ACMI's](https://www.acmi.net.au/) generous data licensing as [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+`data.parquet` is provided, a test dataset derived from the [ACMI API](https://github.com/ACMILabs/acmi-api). This is made possible by [ACMI's](https://www.acmi.net.au/) generous data licensing as [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
 
 If you wish to supply your own data, this is entirely possible. The data should be formatted as a parquet file with four columns, `agent_id` (agent identifier) and `agent_label` (agent name) for creators, and `work_id` (work identifier) and `work_label` (work title) for artistic works.
 
